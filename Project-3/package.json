@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -29,7 +31,8 @@
   "resolutions": {
     "styled-components": "^5"
   },
-  
-  "homepage": "https://7goutam.github.io/https:/7Goutam/Dice-Game/tree/main/"
+
+  "homepage": "https://7Goutam.github.io/Dice-Game"
 
 }
+https://github.com/7goutam/Dice-Game/tree/main.git
