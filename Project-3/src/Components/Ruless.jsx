@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from "styled-components";
 
-
 const Ruless = () => {
   return (
     <RulessContainer>
         <h2>How to play dice game</h2>
         <div className='text'>
             <p>Select any number</p>
-            <p>Click  on dice Image</p>
+            <p>Click on dice Image</p>
             <p>
                 After click on dice if selected number is equal to dice number you will get same point as dice{" "}
             </p>
@@ -17,9 +16,7 @@ const Ruless = () => {
     </RulessContainer>
   )
 }
-
 export default Ruless;
-
 const RulessContainer = styled.div`
     max-width: 800px;
     margin: 0 auto;
@@ -30,7 +27,7 @@ const RulessContainer = styled.div`
     h2{
         font-size: 24px;
     }
-    .text{
+.text{
         margin-top: 24px;
     }
 `;

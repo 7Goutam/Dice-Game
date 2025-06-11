@@ -2,7 +2,7 @@ import { useState } from "react";
 import GamePlay from "./Components/GamePlay";
 import StartGame from "./Components/StartGame";
 
-
+2
 function App() {
     const [isGameStarted, setIsGameStarted] = useState(false);
 
